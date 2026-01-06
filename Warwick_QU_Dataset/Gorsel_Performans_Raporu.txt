@@ -1,0 +1,21 @@
+--- Görsel Düzeyi Performans (GlaS) ---
+ROC-AUC: 0.8221
+Best tau: 0.45
+Accuracy: 0.6596
+Precision(Malign): 0.3333
+Recall(Malign): 1.0000
+F1(Malign): 0.5000
+
+Confusion Matrix [rows: True, cols: Pred]
+             Pred_Benign  Pred_Malign
+True_Benign           23           16
+True_Malign            0            8
+
+              precision    recall  f1-score   support
+
+      Benign       1.00      0.59      0.74        39
+      Malign       0.33      1.00      0.50         8
+
+    accuracy                           0.66        47
+   macro avg       0.67      0.79      0.62        47
+weighted avg       0.89      0.66      0.70        47
